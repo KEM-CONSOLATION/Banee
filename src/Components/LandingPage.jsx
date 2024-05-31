@@ -36,20 +36,9 @@ const LandingPage = () => {
   return (
     <div className=" font-asphaltic ">
       <div className=" pb-[100px] mx-[10px] lg:mx-[40px]">
-        <div className=" text-center">
+        <div className=" text-center animate-pulse">
           <p className=" font-[500] text-[56px] font-asphaltic text-[#8C52FF]">
-            BIG BAD{" "}
-            <span className="text-[#5CE1E6]">
-              <Typewriter
-                words={["BANEE"]}
-                loop={0}
-                cursor
-                cursorStyle="_"
-                typeSpeed={70}
-                deleteSpeed={300}
-                delaySpeed={1000}
-              />
-            </span>
+            BIG BAD <span className="text-[#5CE1E6]">BANEE</span>
           </p>
           <p className=" font-[500] text-[24px] font-asphaltic text-[#5CE1E6]">
             POWERED BY TON
@@ -61,14 +50,14 @@ const LandingPage = () => {
           data-aos="fade-up"
         >
           <div className=" max-w-[510px] 2xl:max-w-[610px]">
-            <p className=" text-[#5CE1E6] text-[60px] 2xl:[100px] font-[500]">
+            <p className=" text-[#5CE1E6] text-[60px] 2xl:[100px] font-[500] animate-pulse">
               $Banne IS <br />
               <span className=" text-[#907CFF]">
                 <Typewriter
                   words={[
                     "THE BIGGEST AND MOST AGGRESSIVE FISH IN THE TON BLOCKCHAIN OCEAN",
                   ]}
-                  loop={0}
+                  loop={1}
                   cursor
                   cursorStyle="_"
                   typeSpeed={70}
