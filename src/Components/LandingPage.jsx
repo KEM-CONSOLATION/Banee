@@ -52,7 +52,7 @@ const LandingPage = () => {
             </span>
           </p>
           <p className=" font-[500] text-[24px] font-asphaltic text-[#5CE1E6]">
-            POWERED BY TOM
+            POWERED BY TON
           </p>
         </div>
 
@@ -93,11 +93,11 @@ const LandingPage = () => {
           className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest"
           data-aos="fade-up"
         >
-          <p className=" lg:text-[56px] font-[500] text-[24px] text-[#5CE1E6] text-center">
+          <p className=" uppercase lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] text-center">
             Tokenomics
           </p>
 
-          <div className=" grid gap-[24px] text-white text-[18px] lg:text-[24px]">
+          <div className=" grid gap-[24px] text-white text-[20px] lg:text-[24px]">
             <p>
               <span className=" text-[#5CE1E6]">*$BANEE</span> MADE A FAIR
               LAUNCH OF ONE BILLION COMMUNITYY DRIVEN TOKENS WITH:
@@ -114,11 +114,11 @@ const LandingPage = () => {
           className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest"
           data-aos="fade-up"
         >
-          <p className=" lg:text-[56px] font-[500] text-[24px] text-[#5CE1E6] text-center">
+          <p className=" lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] text-center">
             LAUNCH MECHANIC
           </p>
 
-          <div className=" grid gap-[16px] text-white text-[16px] lg:text-[24px]">
+          <div className=" grid gap-[16px] text-white text-[20px] lg:text-[24px]">
             <p className=" text-[#907CFF]">
               *MAX SUPPLY:
               <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
@@ -153,7 +153,7 @@ const LandingPage = () => {
           className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest"
           data-aos="fade-up"
         >
-          <p className=" lg:text-[56px] font-[500] text-[24px] text-[#5CE1E6] text-center">
+          <p className=" lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] text-center">
             CONTACT ADDRESS
           </p>
 
@@ -176,7 +176,7 @@ const LandingPage = () => {
           className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest"
           data-aos="fade-up"
         >
-          <p className=" lg:text-[56px] font-[500] text-[24px] text-[#5CE1E6] py-[20px] text-center">
+          <p className=" lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] py-[20px] text-center">
             <Typewriter
               words={["HOW TO BUY $BANEE"]}
               loop={0}
@@ -265,7 +265,7 @@ const LandingPage = () => {
 
       <div className=" py-[20px] ">
         <div className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest">
-          <p className=" uppercase lg:text-[56px] font-[500] text-[24px] text-[#5CE1E6] text-center">
+          <p className=" uppercase lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] text-center">
             socials
           </p>
 
