@@ -8,22 +8,6 @@ import "aos/dist/aos.css";
 import { Typewriter } from "react-simple-typewriter";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
-const CustomTypewriter = () => {
-  return (
-    <Typewriter
-      words={[
-        `THE BIGGEST AND MOST AGGRESSIVE FISH IN THE <span style="color: #5CE1E6;">TON BLOCKCHAIN OCEAN</span>`,
-      ]}
-      loop={1}
-      cursor
-      cursorStyle="_"
-      typeSpeed={70}
-      deleteSpeed={300}
-      delaySpeed={1000}
-    />
-  );
-};
-
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -67,19 +51,8 @@ const LandingPage = () => {
         >
           <div className=" max-w-[510px] 2xl:max-w-[610px]">
             <p className=" mb-[20px] text-[#5CE1E6] leading-[60px] md:leading-[70px] text-[60px] 2xl:[100px] font-[500] animate-pulse">
-              $Banne <span className=" text-[#907CFF]">is</span> <br />
+              $BANNE <span className=" text-[#907CFF]">is</span> <br />
               <span className=" text-[#907CFF]">
-                {/* <Typewriter
-                  words={[
-                    "THE BIGGEST AND MOST AGGRESSIVE FISH IN THE TON BLOCKCHAIN OCEAN",
-                  ]}
-                  loop={1}
-                  cursor
-                  cursorStyle="_"
-                  typeSpeed={70}
-                  deleteSpeed={300}
-                  delaySpeed={1000}
-                /> */}
                 THE BIGGEST AND MOST AGGRESSIVE FISH IN THE{" "}
                 <span className=" text-[#5CE1E6] ">TON</span> BLOCKCHAIN OCEAN
               </span>
@@ -104,10 +77,11 @@ const LandingPage = () => {
             Tokenomics
           </p>
 
-          <div className=" grid gap-[24px] text-white text-[20px] lg:text-[24px]">
+          <div className=" grid gap-[24px] text-white text-[24px] lg:text-[30px]">
             <p>
               <span className=" text-[#5CE1E6]">*$BANEE</span> MADE A FAIR
-              LAUNCH OF ONE BILLION COMMUNITYY DRIVEN TOKENS WITH:
+              LAUNCH OF <span className="  font-serif">1</span> BILLION
+              COMMUNITYY DRIVEN TOKENS WITH:
             </p>
             <p>*ZERO TEAM ALLOCATION</p>
             <p>*ZERO PRESALE</p>
@@ -241,14 +215,14 @@ const LandingPage = () => {
             </div>
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
               <p className=" uppercase text-[#907CFF]">
-                Step <span className=" font-serif">4:</span> Buy $Bannee
+                Step <span className=" font-serif">4:</span> Buy $BANEE
               </p>
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span> Select Trading Pair:
-                Look for the trading pair that involves $Bannee and TON (e.g.,
-                Bannee/TON).
+                Look for the trading pair that involves $BANEE and TON (e.g.,
+                BANEE/TON).
                 <br /> <span className=" font-serif">2.</span> Set the Amount:
-                Enter the amount of $Bannee you want to buy or the amount of TON
+                Enter the amount of $BANEE you want to buy or the amount of TON
                 you want to spend. <br />{" "}
                 <span className=" font-serif">3.</span> Execute the Trade:
                 Review the details and confirm the transaction.
@@ -263,7 +237,7 @@ const LandingPage = () => {
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span>Check Wallet Balance:
                 After the transaction is confirmed, check your wallet balance to
-                ensure you have received $Bannee.
+                ensure you have received $BANEE.
               </p>
             </div>
           </div>
