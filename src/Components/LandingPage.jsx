@@ -67,7 +67,7 @@ const LandingPage = () => {
               </span>
             </p>
             <p className=" animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] inline-block text-[40px]">
-              Buy <span className=" text-[#5CE1E6]"> $Banee</span>
+              Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
             </p>
           </div>
 
@@ -151,7 +151,7 @@ const LandingPage = () => {
           </p>
           <div className=" flex items-center justify-center my-[20px] animate-bounce">
             <p className=" shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] inline-block text-[40px]">
-              Buy <span className=" text-[#5CE1E6]"> $Banee</span>
+              Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
             </p>
           </div>
         </div>
