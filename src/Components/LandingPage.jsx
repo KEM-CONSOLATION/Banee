@@ -8,6 +8,22 @@ import "aos/dist/aos.css";
 import { Typewriter } from "react-simple-typewriter";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
+const CustomTypewriter = () => {
+  return (
+    <Typewriter
+      words={[
+        `THE BIGGEST AND MOST AGGRESSIVE FISH IN THE <span style="color: #5CE1E6;">TON BLOCKCHAIN OCEAN</span>`,
+      ]}
+      loop={1}
+      cursor
+      cursorStyle="_"
+      typeSpeed={70}
+      deleteSpeed={300}
+      delaySpeed={1000}
+    />
+  );
+};
+
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -51,9 +67,9 @@ const LandingPage = () => {
         >
           <div className=" max-w-[510px] 2xl:max-w-[610px]">
             <p className=" mb-[20px] text-[#5CE1E6] leading-[60px] md:leading-[70px] text-[60px] 2xl:[100px] font-[500] animate-pulse">
-              $Banne IS <br />
+              $Banne <span className=" text-[#907CFF]">is</span> <br />
               <span className=" text-[#907CFF]">
-                <Typewriter
+                {/* <Typewriter
                   words={[
                     "THE BIGGEST AND MOST AGGRESSIVE FISH IN THE TON BLOCKCHAIN OCEAN",
                   ]}
@@ -63,7 +79,9 @@ const LandingPage = () => {
                   typeSpeed={70}
                   deleteSpeed={300}
                   delaySpeed={1000}
-                />
+                /> */}
+                THE BIGGEST AND MOST AGGRESSIVE FISH IN THE{" "}
+                <span className=" text-[#5CE1E6] ">TON</span> BLOCKCHAIN OCEAN
               </span>
             </p>
             <p className=" animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] inline-block text-[40px]">
