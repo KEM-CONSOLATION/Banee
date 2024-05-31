@@ -188,7 +188,7 @@ const LandingPage = () => {
             />
           </p>
 
-          <div className=" grid gap-[22px] md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white text-[16px] lg:text-[24px]">
+          <div className="  text-[16px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white  lg:text-[20px]">
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
               <p className=" uppercase text-[#907CFF]">
                 Step <span className=" font-serif">1:</span> Set Up a
