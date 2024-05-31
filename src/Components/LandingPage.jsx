@@ -50,7 +50,7 @@ const LandingPage = () => {
           data-aos="fade-up"
         >
           <div className=" max-w-[510px] 2xl:max-w-[610px]">
-            <p className=" text-[#5CE1E6] text-[60px] 2xl:[100px] font-[500] animate-pulse">
+            <p className=" mb-[20px] text-[#5CE1E6] leading-[60px] md:leading-[70px] text-[60px] 2xl:[100px] font-[500] animate-pulse">
               $Banne IS <br />
               <span className=" text-[#907CFF]">
                 <Typewriter
