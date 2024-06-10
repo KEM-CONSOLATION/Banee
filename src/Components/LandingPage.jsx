@@ -5,7 +5,6 @@ import Telegram from "../assets/telegram.png";
 import Twitter from "../assets/twitter.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Typewriter } from "react-simple-typewriter";
 import { RiArrowUpDoubleLine } from "react-icons/ri";
 
 const LandingPage = () => {
@@ -119,13 +118,6 @@ const LandingPage = () => {
             </p>
             <p className=" text-[#907CFF]">*CONTRACTED REVOKED/RENOUNED</p>{" "}
             <p className=" text-[#907CFF]">*LIQUIDITY LOCKED FOREVER</p>
-            {/* <p className=" text-[#907CFF]">*ANTI-BOT</p> */}
-            {/* <p className="text-[#907CFF]">
-              *ANTI WHALE:
-              <span className="text-[#5CE1E6] font-serif">
-                {"<"}=1.1% FIRST 1DAY POST-LAUNCH{" "}
-              </span>
-            </p> */}
             <p className="text-[#907CFF]">
               *TOKEN BURN MECHNISM(TBM):
               <span className="text-[#5CE1E6] font-serif">AUTOMATIC</span>
@@ -163,15 +155,7 @@ const LandingPage = () => {
           data-aos="fade-up"
         >
           <p className=" lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] py-[20px] text-center">
-            <Typewriter
-              words={["HOW TO BUY $BANEE"]}
-              loop={0}
-              cursor
-              cursorStyle="_"
-              typeSpeed={70}
-              deleteSpeed={300}
-              delaySpeed={1000}
-            />
+            HOW TO BUY $BANEE
           </p>
 
           <div className="  text-[24px] lg:text-[30px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white  font-[500]">
