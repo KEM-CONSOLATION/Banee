@@ -51,19 +51,24 @@ const LandingPage = () => {
         >
           <div className=" max-w-[510px] 2xl:max-w-[610px]">
             <p className=" mb-[20px] text-[#5CE1E6] leading-[60px] md:leading-[70px] text-[60px] 2xl:[100px] font-[500] animate-pulse">
-              $BANNE <span className=" text-[#907CFF]">is</span> <br />
+              $BANNE <span className=" text-[#907CFF]">IS</span> <br />
               <span className=" text-[#907CFF]">
                 THE BIGGEST AND MOST AGGRESSIVE FISH IN THE{" "}
                 <span className=" text-[#5CE1E6] ">TON</span> BLOCKCHAIN OCEAN
               </span>
             </p>
-            <p className=" animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] inline-block text-[40px]">
+            <p className=" hidden  animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] md:inline-block text-[40px]">
               Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
             </p>
           </div>
 
-          <div className=" animate-pulse">
-            <img src={EYE} alt="My GIF" />
+          <div className="">
+            <div className=" animate-pulse">
+              <img src={EYE} alt="My GIF" />
+            </div>
+            <p className=" md:hidden  animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] text-center block text-[40px] mt-[40px]">
+              Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
+            </p>
           </div>
         </div>
       </div>
@@ -99,7 +104,7 @@ const LandingPage = () => {
             LAUNCH MECHANIC
           </p>
 
-          <div className=" grid gap-[16px] text-white text-[20px] lg:text-[24px]">
+          <div className=" grid gap-[16px] text-white text-[24px] lg:text-[30px] font-[600]">
             <p className=" text-[#907CFF]">
               *MAX SUPPLY:
               <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
@@ -114,13 +119,13 @@ const LandingPage = () => {
             </p>
             <p className=" text-[#907CFF]">*CONTRACTED REVOKED/RENOUNED</p>{" "}
             <p className=" text-[#907CFF]">*LIQUIDITY LOCKED FOREVER</p>
-            <p className=" text-[#907CFF]">*ANTI-BOT</p>
-            <p className="text-[#907CFF]">
+            {/* <p className=" text-[#907CFF]">*ANTI-BOT</p> */}
+            {/* <p className="text-[#907CFF]">
               *ANTI WHALE:
               <span className="text-[#5CE1E6] font-serif">
                 {"<"}=1.1% FIRST 1DAY POST-LAUNCH{" "}
               </span>
-            </p>
+            </p> */}
             <p className="text-[#907CFF]">
               *TOKEN BURN MECHNISM(TBM):
               <span className="text-[#5CE1E6] font-serif">AUTOMATIC</span>
@@ -138,7 +143,7 @@ const LandingPage = () => {
             CONTACT ADDRESS
           </p>
 
-          <p className=" uppercase text-center font-bold text-white font-serif overflow-x-scroll">
+          <p className=" uppercase text-center font-bold text-white font-serif overflow-x-scroll text-[24px] lg:text-[30px]">
             1A1zP1eP5QGefi2enjwenfnjfjwhekdhui2gquig2iqhhhjkskdqkhdgkqggqdjwdLmv7DivfNa
           </p>
           <div className=" flex items-center justify-center my-[20px] animate-bounce">
@@ -169,7 +174,7 @@ const LandingPage = () => {
             />
           </p>
 
-          <div className="  text-[16px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white  lg:text-[20px]">
+          <div className="  text-[24px] lg:text-[30px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white  font-[500]">
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
               <p className=" uppercase text-[#907CFF]">
                 Step <span className=" font-serif">1:</span> Set Up a
