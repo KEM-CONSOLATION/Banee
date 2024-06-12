@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import EYE from "../assets/EYELOGOANIMATION.gif";
-import EYEBanner from "../assets/eyeBanner2.mp4";
+import EYEBanner from "../assets/eyeBanner2.gif";
 import Telegram from "../assets/telegram.png";
 import Twitter from "../assets/twitter.svg";
 import AOS from "aos";
