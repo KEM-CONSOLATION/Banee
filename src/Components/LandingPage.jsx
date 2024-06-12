@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import EYE from "../assets/EYELOGOANIMATION.gif";
-import EYEBanner from "../assets/eyeBanner.png";
+import EYEBanner from "../assets/eyeBanner2.mp4";
 import Telegram from "../assets/telegram.png";
 import Twitter from "../assets/twitter.svg";
 import AOS from "aos";
@@ -90,38 +90,20 @@ const LandingPage = () => {
             <p>*ZERO TEAM ALLOCATION</p>
             <p>*ZERO PRESALE</p>
             <p>*ZERO TAXES</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="  ">
-        <div
-          className=" mx-[10px] lg:mx-[40px] py-[20px] tracking-widest"
-          data-aos="fade-up"
-        >
-          <p className=" lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] text-center">
-            LAUNCH MECHANIC
-          </p>
-
-          <div className=" grid gap-[16px] text-white text-[24px] lg:text-[30px] font-[600]">
-            <p className=" text-[#907CFF]">
+            <p className=" ">
               *MAX SUPPLY:
               <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
             </p>
-            <p className=" text-[#907CFF]">
+            <p className=" ">
               *TOTAL SUPPLY:
               <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
             </p>
-            <p className=" text-[#907CFF]">
+            <p className=" ">
               *CIRTCULATING SUPLY AT LAUNCH:
               <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
             </p>
-            <p className=" text-[#907CFF]">*CONTRACTED REVOKED/RENOUNED</p>{" "}
-            <p className=" text-[#907CFF]">*LIQUIDITY LOCKED FOREVER</p>
-            <p className="text-[#907CFF]">
-              *TOKEN BURN MECHNISM(TBM):
-              <span className="text-[#5CE1E6] font-serif">AUTOMATIC</span>
-            </p>
+            <p className=" ">*CONTRACTED REVOKED/RENOUNCED</p>{" "}
+            <p className=" ">*LIQUIDITY LOCKED FOREVER</p>
           </div>
         </div>
       </div>
@@ -145,8 +127,14 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="">
-        <img src={EYEBanner} alt="" />
+      <div className=" max-w-full ">
+        <video
+          src={EYEBanner}
+          className=" w-full "
+          alt="Video not supported"
+          loop
+          autoPlay
+        />
       </div>
 
       <div className="  ">
@@ -181,8 +169,7 @@ const LandingPage = () => {
               </p>
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span> Purchase TON: Buy TON
-                coins on a supported exchange such as Binance, KuCoin, or FTX.{" "}
-                <br />
+                coins on a supported exchange such as Binance, KuCoin. <br />
                 <span className=" font-serif">2.</span> Transfer TON to Your
                 Wallet: Withdraw the TON coins from the exchange to your TON
                 wallet address.
