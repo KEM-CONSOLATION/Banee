@@ -37,10 +37,10 @@ const LandingPage = () => {
       <div className=" pb-[100px] mx-[10px] lg:mx-[40px]">
         <div className=" text-center animate-pulse">
           <p className=" font-[500] text-[56px] font-asphaltic text-[#8C52FF]">
-            BIG BAD <span className="text-[#5CE1E6]">BANEE</span>
+            BIG BAD <span className="text-[#5CE1E6]">BAREE</span>
           </p>
           <p className=" font-[500] text-[24px] font-asphaltic text-[#5CE1E6]">
-            POWERED BY TON
+            POWERED BY SUI
           </p>
         </div>
 
@@ -50,14 +50,14 @@ const LandingPage = () => {
         >
           <div className=" max-w-[510px] 2xl:max-w-[610px]">
             <p className=" mb-[20px] text-[#5CE1E6] leading-[60px] md:leading-[70px] text-[60px] 2xl:[100px] font-[500] animate-pulse">
-              $BANNE <span className=" text-[#907CFF]">IS</span> <br />
+              $BAREE <span className=" text-[#907CFF]">IS</span> <br />
               <span className=" text-[#907CFF]">
                 THE BIGGEST AND MOST AGGRESSIVE FISH IN THE{" "}
-                <span className=" text-[#5CE1E6] ">TON</span> BLOCKCHAIN OCEAN
+                <span className=" text-[#5CE1E6] ">SUI</span> BLOCKCHAIN OCEAN
               </span>
             </p>
             <p className=" hidden  animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] md:inline-block text-[40px]">
-              Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
+              Buy <span className=" text-[#5CE1E6]"> $BAREE</span>
             </p>
           </div>
 
@@ -66,7 +66,7 @@ const LandingPage = () => {
               <img src={EYE} alt="My GIF" />
             </div>
             <p className=" md:hidden  animate-bounce shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] text-center block text-[40px] mt-[40px]">
-              Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
+              Buy <span className=" text-[#5CE1E6]"> $BAREE</span>
             </p>
           </div>
         </div>
@@ -83,27 +83,12 @@ const LandingPage = () => {
 
           <div className=" grid gap-[24px] text-white text-[24px] lg:text-[30px]">
             <p>
-              <span className=" text-[#5CE1E6]">*$BANEE</span> MADE A FAIR
+              <span className=" text-[#5CE1E6]">*$BAREE</span> MADE A FAIR
               LAUNCH OF <span className="  font-serif">1</span> BILLION
               COMMUNITYY DRIVEN TOKENS WITH:
             </p>
-            <p>*ZERO TEAM ALLOCATION</p>
-            <p>*ZERO PRESALE</p>
-            <p>*ZERO TAXES</p>
-            <p className=" ">
-              *MAX SUPPLY:
-              <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
-            </p>
-            <p className=" ">
-              *TOTAL SUPPLY:
-              <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
-            </p>
-            <p className=" ">
-              *CIRTCULATING SUPLY AT LAUNCH:
-              <span className=" text-[#5CE1E6] font-serif">1,111,111,111</span>
-            </p>
             <p className=" ">*CONTRACTED REVOKED/RENOUNCED</p>{" "}
-            <p className=" ">*LIQUIDITY LOCKED FOREVER</p>
+            <p className=" ">*LP BURNED</p>
           </div>
         </div>
       </div>
@@ -122,19 +107,13 @@ const LandingPage = () => {
           </p>
           <div className=" flex items-center justify-center my-[20px] animate-bounce">
             <p className=" shadow-lg shadow-white text-white px-[23px] py-[5px] rounded-[10px] bg-[#FF3131] inline-block text-[40px]">
-              Buy <span className=" text-[#5CE1E6]"> $BANEE</span>
+              Buy <span className=" text-[#5CE1E6]"> $BAREE</span>
             </p>
           </div>
         </div>
       </div>
       <div className=" max-w-full ">
-        <video
-          src={EYEBanner}
-          className=" w-full "
-          alt="Video not supported"
-          loop
-          autoPlay
-        />
+        <img src={EYEBanner} className=" w-full " alt="GIF" />
       </div>
 
       <div className="  ">
@@ -143,20 +122,20 @@ const LandingPage = () => {
           data-aos="fade-up"
         >
           <p className=" lg:text-[56px] font-[600] text-[40px] text-[#5CE1E6] py-[20px] text-center">
-            HOW TO BUY $BANEE
+            HOW TO BUY $BAREE
           </p>
 
           <div className="  text-[24px] lg:text-[30px] grid gap-[22px] mx-[10px] md:mx-0 md:grid-cols-2 lg:grid-cols-3 items-start place-items-center text-white  font-[500]">
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
               <p className=" uppercase text-[#907CFF]">
                 Step <span className=" font-serif">1:</span> Set Up a
-                TON-Compatible Wallet
+                SUI-Compatible Wallet
               </p>
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span> Download a
-                TON-Compatible Wallet: Choose a wallet that supports the TON
+                SUI-Compatible Wallet: Choose a wallet that supports the SUI
                 blockchain. Some popular options are Tonkeeper, Tonhub, or
-                Wallet by Free TON. <br />{" "}
+                Wallet by Free SUI. <br />{" "}
                 <span className=" font-serif">2.</span> Create a New Wallet:
                 Follow the prompts to create a new wallet, securely store your
                 seed phrase, and set up your wallet.
@@ -165,13 +144,13 @@ const LandingPage = () => {
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
               <p className=" uppercase text-[#907CFF]">
                 Step <span className=" font-serif">2:</span> Fund Your Wallet
-                with TON
+                with SUI
               </p>
               <p className=" text-[#5CE1E6] ">
-                <span className=" font-serif">1.</span> Purchase TON: Buy TON
+                <span className=" font-serif">1.</span> Purchase SUI: Buy SUI
                 coins on a supported exchange such as Binance, KuCoin. <br />
-                <span className=" font-serif">2.</span> Transfer TON to Your
-                Wallet: Withdraw the TON coins from the exchange to your TON
+                <span className=" font-serif">2.</span> Transfer SUI to Your
+                Wallet: Withdraw the SUI coins from the exchange to your SUI
                 wallet address.
               </p>
             </div>
@@ -182,23 +161,23 @@ const LandingPage = () => {
               </p>
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span> Open a DEX: Use a DEX
-                that operates on the TON network. Popular choices include DeDust
+                that operates on the SUI network. Popular choices include DeDust
                 and STON.fi.
                 <br /> <span className=" font-serif">2.</span> Connect Your
-                Wallet: Follow the instructions to connect your TON-compatible
+                Wallet: Follow the instructions to connect your SUI-compatible
                 wallet to the DEX.
               </p>
             </div>
             <div className=" max-w-[400px] grid gap-[20px] text-justify">
               <p className=" uppercase text-[#907CFF]">
-                Step <span className=" font-serif">4:</span> Buy $BANEE
+                Step <span className=" font-serif">4:</span> Buy $BAREE
               </p>
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span> Select Trading Pair:
-                Look for the trading pair that involves $BANEE and TON (e.g.,
-                BANEE/TON).
+                Look for the trading pair that involves $BAREE and SUI (e.g.,
+                BAREE/SUI).
                 <br /> <span className=" font-serif">2.</span> Set the Amount:
-                Enter the amount of $BANEE you want to buy or the amount of TON
+                Enter the amount of $BAREE you want to buy or the amount of SUI
                 you want to spend. <br />{" "}
                 <span className=" font-serif">3.</span> Execute the Trade:
                 Review the details and confirm the transaction.
@@ -213,7 +192,7 @@ const LandingPage = () => {
               <p className=" text-[#5CE1E6] ">
                 <span className=" font-serif">1.</span>Check Wallet Balance:
                 After the transaction is confirmed, check your wallet balance to
-                ensure you have received $BANEE.
+                ensure you have received $BAREE.
               </p>
             </div>
           </div>
